@@ -1,1 +1,1 @@
-# LeecodeWork
+# LeetcodeWork
