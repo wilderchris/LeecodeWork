@@ -129,38 +129,28 @@ Constraints:
 0 <= nums.length <= 100
 0 <= nums[i] <= 50
 0 <= val <= 100
-   Show Hint #1  
-   Show Hint #2  
 
-   Show Hint #3  
 Java	
-1
+
 class Solution {
-2
+
     public int removeElement(int[] nums, int val) {
-3
-        
-4
+
           int k = 0;
-5
+
         for(int i = 0; i < nums.length; i++) {
-6
+
             if(nums[i] != val) {
-7
+
                 nums[k] = nums[i];
-8
+
                 k++;
-9
+
             }
-10
+
         }
-11
+
         return k;
-12
-​
-13
-        
-14
+
     }
-15
 }
